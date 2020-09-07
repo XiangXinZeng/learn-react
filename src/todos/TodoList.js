@@ -39,6 +39,7 @@ export default function TodoList() {
 
   return (
     <>
+      <h2>Todo List</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" ref = {inputRef}/>
         <button type="submit">Add Todo</button>
